@@ -93,7 +93,7 @@ export default class InformationSection
                 labelTexture: this.resources.items.informationContactTwitterLabelTexture
             },
             {
-                href: 'https://moderncoe.edu.in/',
+                href: 'https://github.com/tanujagiri14-bit/RapidServe',
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
             {
@@ -101,7 +101,7 @@ export default class InformationSection
                 labelTexture: this.resources.items.informationContactLinkedinLabelTexture
             },
             {
-                href: 'https://moderncoe.edu.in/',
+                href: 'mailto:bhavsarharsh802@gmail.com',
                 labelTexture: this.resources.items.informationContactMailLabelTexture
             }
         ]

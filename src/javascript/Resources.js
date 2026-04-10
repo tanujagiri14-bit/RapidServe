@@ -76,6 +76,10 @@ export default class Resources extends EventEmitter
             { name: 'crossroadsStaticBase', source: './models/crossroads/static/base.glb' },
             { name: 'crossroadsStaticCollision', source: './models/crossroads/static/collision.glb' },
             { name: 'crossroadsStaticFloorShadow', source: './models/crossroads/static/floorShadow.png', type: 'texture' },
+            { name: 'crossroadsGamesLabel', source: './models/crossroads/crossroads_games.png', type: 'texture' },
+            { name: 'crossroadsContactLabel', source: './models/crossroads/crossroads_contact.png', type: 'texture' },
+            { name: 'crossroadsServicesLabel', source: './models/crossroads/crossroads_services.png', type: 'texture' },
+            { name: 'crossroadsAccountLabel', source: './models/crossroads/crossroads_account.png', type: 'texture' },
 
             // Car default
             { name: 'carDefaultChassis', source: './models/car/default/chassis.glb' },
