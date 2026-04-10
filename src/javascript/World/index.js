@@ -14,6 +14,7 @@ import ProjectsSection from './Sections/ProjectsSection.js'
 import CrossroadsSection from './Sections/CrossroadsSection.js'
 import InformationSection from './Sections/InformationSection.js'
 import PlaygroundSection from './Sections/PlaygroundSection.js'
+import AccountSection from './Sections/AccountSection.js'
 // import DistinctionASection from './Sections/DistinctionASection.js'
 // import DistinctionBSection from './Sections/DistinctionBSection.js'
 // import DistinctionCSection from './Sections/DistinctionCSection.js'
@@ -493,6 +494,14 @@ export default class World
             // y: - 4
         })
         this.container.add(this.sections.playground.container)
+
+        // Account
+        this.sections.account = new AccountSection({
+            ...options,
+            x: 20,
+            y: - 10
+        })
+        this.container.add(this.sections.account.container)
     }
 
     setEasterEggs()

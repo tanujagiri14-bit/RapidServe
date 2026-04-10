@@ -313,4 +313,27 @@ html
 .agency-nav ul li a:hover {
     color: #feae69;
     transform: translateY(-2px);
+}
+
+/* Mobile Responsiveness for Navbar */
+@media screen and (max-width: 1024px) {
+    .agency-nav {
+        padding: 16px 32px;
+    }
+    .agency-nav .logo {
+        font-size: 24px;
+    }
+    .agency-nav ul {
+        gap: 24px;
+    }
+    .agency-nav ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Remove on phones (portrait and landscape) */
+@media screen and (max-width: 768px), screen and (max-height: 500px) {
+    .agency-nav {
+        display: none;
+    }
 }
