@@ -47,7 +47,7 @@ Rapid Serve is an immersive 3D interactive web experience. Originally based on a
    ```bash
    npm run build
    ```
-   This will generate a `dist` directory with all optimized production assets.
+   This will generate a `dist` directory with all optimized production assets
 
 ## Deployment
 
@@ -58,3 +58,5 @@ Link: [https://rapid-serve.vercel.app/](https://rapid-serve.vercel.app/)
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md) - see the `LICENSE.md` file for details.
+
+
